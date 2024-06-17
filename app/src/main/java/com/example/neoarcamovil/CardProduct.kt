@@ -26,7 +26,7 @@ fun ProductCard(name: String, price: Double) {
     Column(modifier = Modifier
         .padding(16.dp)
         .clip(RoundedCornerShape(16.dp))
-        .background(Color.Gray)
+        .background(Color(0xFFFFFFFF))
         .padding(8.dp)
         .fillMaxWidth(),
         horizontalAlignment = Alignment.CenterHorizontally
@@ -51,7 +51,7 @@ fun ProductAdd() {
     Row(modifier = Modifier
         .padding(8.dp)
         .clip(RoundedCornerShape(32.dp))
-        .background(Color.Blue)
+        .background(Color(0xFFE8234D))
         .padding(8.dp),
         horizontalArrangement = Arrangement.SpaceEvenly,
         verticalAlignment = Alignment.CenterVertically) {
